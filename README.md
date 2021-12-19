@@ -1,4 +1,4 @@
-# nuxt-vuex
+# nuxtjs + vuex
 
 ## Nuxt Store Example (index.js)
 ```
