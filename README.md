@@ -56,3 +56,15 @@ export const getters = {
 store.dispatch('storeJobIds', response)  // for index.js
 store.dispatch('cars/storeCars', response)  // for store named cars.js
 ```
+### async asyncData({ $axios, store })
+
+## 2. Inside Vue methods
+```
+this.$store.dispatch('storeJobIds', response) // for index.js
+this.$store.dispatch('cars/storeCars', response) // for store named cars.js
+```
+# Using Getters in Pages
+```
+{{ $store.getters['getJobIds'] }}  // for index.js
+{{ $store.getters['cars/getCars'] }}  // for store named cars.js
+```
