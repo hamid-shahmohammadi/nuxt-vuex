@@ -1,4 +1,5 @@
 # nuxtjs + vuex
+##Some basics of using Vuex with NuxtJS (using Example)
 
 ## Nuxt Store Example (index.js)
 ```
@@ -56,7 +57,7 @@ export const getters = {
 store.dispatch('storeJobIds', response)  // for index.js
 store.dispatch('cars/storeCars', response)  // for store named cars.js
 ```
-### async asyncData({ $axios, store })
+async asyncData({ $axios, store })
 
 ## 2. Inside Vue methods
 ```
