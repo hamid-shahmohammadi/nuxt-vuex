@@ -1,5 +1,5 @@
 # nuxtjs + vuex
-##Some basics of using Vuex with NuxtJS (using Example)
+Some basics of using Vuex with NuxtJS (using Example)
 
 ## Nuxt Store Example (index.js)
 ```
